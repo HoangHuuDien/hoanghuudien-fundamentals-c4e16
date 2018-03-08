@@ -1,7 +1,8 @@
 from turtle import *
 
-# speed(-1)
+speed(-1)
 shape("turtle")
+color('red')
 for i in range(4):
     left(60)
     forward(100)

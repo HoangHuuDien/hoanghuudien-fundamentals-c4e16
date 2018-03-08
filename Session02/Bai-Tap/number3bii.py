@@ -1,4 +1,6 @@
 n = int(input('Enter a number : '))
 
 for i in range(n):
-    print(' 1', ' 0 ', end='')
+    if i % 2 == 0:
+        print('1', end='')
+    else: print(' 0 ', end='')
