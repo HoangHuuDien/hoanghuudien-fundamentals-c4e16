@@ -8,6 +8,8 @@ pocket = ['seashell', 'strange berry', 'lint']
 
 inventory['pocket'] = pocket
 
+inventory['backpack'].remove('dagger')
+
 inventory['gold'] = 50
 
 print(inventory)
