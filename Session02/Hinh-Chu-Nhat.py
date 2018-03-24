@@ -17,4 +17,4 @@ for i in range(6): #cai nay la de xuong dong ne
         else:
             print(' ', end='')
 
-print() #cai nay la de xuong dong sau moi lan print
+    print() #cai nay la de xuong dong sau moi lan print
