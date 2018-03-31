@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>C4E Blog</h1>
+    <!-- jinja2 template -->
+    {% for post in posts %}
+    <h3>{{ post.title }}</h3>
+    <p>
+      {{ post.content }}
+    </p>
+    <!-- conditional expression -->
+    {{ "Mr" if post.gender == 1 else "Mrs" }}
+    <i> {{ post.author }} </i>
+    {% endfor %}
+
+    <!-- <h3>Ăn kem</h3>
+    <p>Ngày ngày ta đứng bên em,
+      Ta đi ra phố quán kém Tràng Tiền</p>
+    <i>Diễn</i> -->
+  </body>
+</html>
